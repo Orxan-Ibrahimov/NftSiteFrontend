@@ -1,0 +1,74 @@
+@import "color";
+
+.bg-orange {
+  background-color: $orange;
+}
+
+header {
+  .navbar {
+    .navbar-brand {
+      img {
+        width: 180px;
+        height: 60px;
+        background: transparent;
+      }
+    }
+    .navbar-collapse {
+      flex-grow: 0;
+
+      .navbar-nav {
+        .nav-item {
+            padding: 0 .5rem;
+          .nav-link {
+            font-weight: 600;
+            font-size: 1.3rem;
+            color: $white;
+            transition: color 0.4s;
+
+            &:hover {
+              color: $active;
+            }
+          }
+
+          .active {
+            color: $active;
+          }
+        }
+        .dropdown {
+            .dropdown-menu{
+                background-color: $active;
+                transform: translateX(-25%);
+                min-width: 0;
+                
+                .dropdown-item{
+                    font-weight: 600;
+                    font-size: 1.3rem;
+                    color: $white;
+                    transition: color .3s;
+
+                    &:hover{
+                        background-color: $active !important;
+                        color: $orange !important;
+                    }
+                }
+            }
+          &:hover {
+            .dropdown-menu {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+    .btn-search {
+        font-weight: 600; 
+        font-size:  2rem;
+        color: $white;
+        transition: color .3s;
+
+        &:hover{
+            color: $active;
+        }
+    }
+  }
+}
