@@ -3,3 +3,31 @@
     margin: 0;
     padding: 0;
 }
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+@font-face {
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&display=swap');
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-orange {
+    background-color: $orange;
+  }
+  
+  .text-orange {
+    color: $orange;
+  }
+  
+  .weight-600{
+    font-weight: 600;
+  }
+  
+  .weight-700{
+    font-weight: 700;
+  }

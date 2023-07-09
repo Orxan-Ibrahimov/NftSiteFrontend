@@ -1,8 +1,5 @@
 @import "color";
-
-.bg-orange {
-  background-color: $orange;
-}
+@import "reset";
 
 header {
   .navbar {
@@ -18,7 +15,7 @@ header {
 
       .navbar-nav {
         .nav-item {
-            padding: 0 .5rem;
+          padding: 0 0.5rem;
           .nav-link {
             font-weight: 600;
             font-size: 1.3rem;
@@ -35,23 +32,23 @@ header {
           }
         }
         .dropdown {
-            .dropdown-menu{
-                background-color: $active;
-                transform: translateX(-25%);
-                min-width: 0;
-                
-                .dropdown-item{
-                    font-weight: 600;
-                    font-size: 1.3rem;
-                    color: $white;
-                    transition: color .3s;
+          .dropdown-menu {
+            background-color: $active;
+            transform: translateX(-25%);
+            min-width: 0;
 
-                    &:hover{
-                        background-color: $active !important;
-                        color: $orange !important;
-                    }
-                }
+            .dropdown-item {
+              font-weight: 600;
+              font-size: 1.3rem;
+              color: $white;
+              transition: color 0.3s;
+
+              &:hover {
+                background-color: $active !important;
+                color: $orange !important;
+              }
             }
+          }
           &:hover {
             .dropdown-menu {
               display: block;
@@ -61,14 +58,58 @@ header {
       }
     }
     .btn-search {
-        font-weight: 600; 
-        font-size:  2rem;
-        color: $white;
-        transition: color .3s;
+      font-weight: 600;
+      font-size: 2rem;
+      color: $white;
+      transition: color 0.3s;
 
-        &:hover{
-            color: $active;
+      &:hover {
+        color: $active;
+      }
+    }
+  }
+}
+
+section#guarantee {
+  .card-guarantee {
+    padding: 5rem 0;
+    .guarantee-heading {
+      color: $purple;
+      font-family: "Montserrat", sans-serif;
+      font-size: 4rem;
+      font-weight: 900;
+    }
+
+    .guarantee-footer {
+
+      .special-btn{
+        display: inline-block;
+        padding: 1rem 2rem;
+        font-size: 18px;       
+        transition: all 0.3s;
+
+         &:hover{
+          scale: 1.1;
+         }
+      }
+      .btn-jumbotron {
+        background-color: $active;
+        border-radius: 20px 20px 20px 20px;
+        color: $white;
+        font-weight: 500;
+
+        &:hover {
+          background-color: $orange;          
         }
+      }
+
+      .btn-outline{
+        color: $orange;
+
+        &:hover {
+          color: $active;
+        }
+      }
     }
   }
 }

@@ -1,5 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&display=swap");
+  font-family: "Montserrat", sans-serif;
+}
 .bg-orange {
   background-color: #FF963C;
+}
+
+.text-orange {
+  color: #FF963C;
+}
+
+.weight-600 {
+  font-weight: 600;
+}
+
+.weight-700 {
+  font-weight: 700;
 }
 
 header .navbar .navbar-brand img {
@@ -50,5 +80,39 @@ header .navbar .btn-search {
   transition: color 0.3s;
 }
 header .navbar .btn-search:hover {
+  color: #530075;
+}
+
+section#guarantee .card-guarantee {
+  padding: 5rem 0;
+}
+section#guarantee .card-guarantee .guarantee-heading {
+  color: #A017D7;
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem;
+  font-weight: 900;
+}
+section#guarantee .card-guarantee .guarantee-footer .special-btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 18px;
+  transition: all 0.3s;
+}
+section#guarantee .card-guarantee .guarantee-footer .special-btn:hover {
+  scale: 1.1;
+}
+section#guarantee .card-guarantee .guarantee-footer .btn-jumbotron {
+  background-color: #530075;
+  border-radius: 20px 20px 20px 20px;
+  color: #fff;
+  font-weight: 500;
+}
+section#guarantee .card-guarantee .guarantee-footer .btn-jumbotron:hover {
+  background-color: #FF963C;
+}
+section#guarantee .card-guarantee .guarantee-footer .btn-outline {
+  color: #FF963C;
+}
+section#guarantee .card-guarantee .guarantee-footer .btn-outline:hover {
   color: #530075;
 }/*# sourceMappingURL=style.css.map */
