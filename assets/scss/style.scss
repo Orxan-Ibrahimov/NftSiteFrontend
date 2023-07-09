@@ -123,9 +123,10 @@ section#guarantee {
       -webkit-box-shadow: -1px 20px 0px 0px $naranja;
       -moz-box-shadow: -1px 20px 0px 0px $naranja;
       transform: scale(1.1) translateX(-10%);
+      
 
       & > img.fight-image {
-        transform: translate(-5%, -30%);
+        transform: translate(-2%, -30%);
         width: 100%;
       }
       & > .fight-text {
@@ -133,6 +134,17 @@ section#guarantee {
         bottom: 0;
         left: 50%;
         transform: translateX(-50%);
+      }
+
+      &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 60px;
+        height: 50px;
+        border-radius: 40% 0% 100% 0%;
+        background-color: $naranja;
       }
     }
   }
