@@ -19,7 +19,7 @@ header {
           .nav-link {
             font-weight: 600;
             font-size: 1.3rem;
-            color: $white;
+            color: $blanco;
             transition: color 0.4s;
 
             &:hover {
@@ -40,12 +40,12 @@ header {
             .dropdown-item {
               font-weight: 600;
               font-size: 1.3rem;
-              color: $white;
+              color: $blanco;
               transition: color 0.3s;
 
               &:hover {
                 background-color: $active !important;
-                color: $orange !important;
+                color: $naranja !important;
               }
             }
           }
@@ -60,7 +60,7 @@ header {
     .btn-search {
       font-weight: 600;
       font-size: 2rem;
-      color: $white;
+      color: $blanco;
       transition: color 0.3s;
 
       &:hover {
@@ -74,41 +74,65 @@ section#guarantee {
   .card-guarantee {
     padding: 5rem 0;
     .guarantee-heading {
-      color: $purple;
       font-family: "Montserrat", sans-serif;
       font-size: 4rem;
       font-weight: 900;
     }
 
     .guarantee-footer {
-
-      .special-btn{
+      .special-btn {
         display: inline-block;
         padding: 1rem 2rem;
-        font-size: 18px;       
+        font-size: 18px;
         transition: all 0.3s;
 
-         &:hover{
+        &:hover {
           scale: 1.1;
-         }
+        }
       }
       .btn-jumbotron {
         background-color: $active;
         border-radius: 20px 20px 20px 20px;
-        color: $white;
+        color: $blanco;
         font-weight: 500;
 
         &:hover {
-          background-color: $orange;          
+          background-color: $naranja;
         }
       }
 
-      .btn-outline{
-        color: $orange;
+      .btn-outline {
+        color: $naranja;
 
         &:hover {
           color: $active;
         }
+      }
+    }
+  }
+
+  .figth-card {
+    margin: 3rem 0;
+
+    .fight-body {
+      width: 100%;
+      background-color: $active;
+      border-radius: 10%;
+      position: relative;
+      box-shadow: -1px 20px 0px 0px $naranja;
+      -webkit-box-shadow: -1px 20px 0px 0px $naranja;
+      -moz-box-shadow: -1px 20px 0px 0px $naranja;
+      transform: scale(1.1) translateX(-10%);
+
+      & > img.fight-image {
+        transform: translate(-5%, -30%);
+        width: 100%;
+      }
+      & > .fight-text {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
       }
     }
   }

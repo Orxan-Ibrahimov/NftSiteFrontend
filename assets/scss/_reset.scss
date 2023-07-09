@@ -16,18 +16,41 @@ a{
     font-family: 'Montserrat', sans-serif;
 }
 
-.bg-orange {
-    background-color: $orange;
+.bg-naranja {
+    background-color: $naranja;
   }
   
-  .text-orange {
-    color: $orange;
+  .text-naranja {
+    color: $naranja;
   }
   
+  .bg-blanco {
+    background-color: $blanco;
+  }
+  
+  .text-blanco {
+    color: $blanco;
+  }
+
+  .bg-morado {
+    background-color: $morado;
+  }
+  
+  .text-morado {
+    color: $morado;
+  }
+
   .weight-600{
     font-weight: 600;
   }
   
   .weight-700{
     font-weight: 700;
+  }
+  .fs-18{
+    font-size: 18px;
+  }
+
+  .fs-20{
+    font-size: 20px;
   }

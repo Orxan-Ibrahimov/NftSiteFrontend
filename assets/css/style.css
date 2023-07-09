@@ -16,12 +16,28 @@ a {
   @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&display=swap");
   font-family: "Montserrat", sans-serif;
 }
-.bg-orange {
+.bg-naranja {
   background-color: #FF963C;
 }
 
-.text-orange {
+.text-naranja {
   color: #FF963C;
+}
+
+.bg-blanco {
+  background-color: #fff;
+}
+
+.text-blanco {
+  color: #fff;
+}
+
+.bg-morado {
+  background-color: #A017D7;
+}
+
+.text-morado {
+  color: #A017D7;
 }
 
 .weight-600 {
@@ -30,6 +46,14 @@ a {
 
 .weight-700 {
   font-weight: 700;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-20 {
+  font-size: 20px;
 }
 
 header .navbar .navbar-brand img {
@@ -87,7 +111,6 @@ section#guarantee .card-guarantee {
   padding: 5rem 0;
 }
 section#guarantee .card-guarantee .guarantee-heading {
-  color: #A017D7;
   font-family: "Montserrat", sans-serif;
   font-size: 4rem;
   font-weight: 900;
@@ -115,4 +138,27 @@ section#guarantee .card-guarantee .guarantee-footer .btn-outline {
 }
 section#guarantee .card-guarantee .guarantee-footer .btn-outline:hover {
   color: #530075;
+}
+section#guarantee .figth-card {
+  margin: 3rem 0;
+}
+section#guarantee .figth-card .fight-body {
+  width: 100%;
+  background-color: #530075;
+  border-radius: 10%;
+  position: relative;
+  box-shadow: -1px 20px 0px 0px #FF963C;
+  -webkit-box-shadow: -1px 20px 0px 0px #FF963C;
+  -moz-box-shadow: -1px 20px 0px 0px #FF963C;
+  transform: scale(1.1) translateX(-10%);
+}
+section#guarantee .figth-card .fight-body > img.fight-image {
+  transform: translate(-5%, -30%);
+  width: 100%;
+}
+section#guarantee .figth-card .fight-body > .fight-text {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }/*# sourceMappingURL=style.css.map */
