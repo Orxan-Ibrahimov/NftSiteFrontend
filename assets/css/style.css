@@ -171,4 +171,41 @@ section#guarantee .figth-card .fight-body::before {
   height: 50px;
   border-radius: 40% 0% 100% 0%;
   background-color: #FF963C;
+}
+section#guarantee .dragon-card {
+  margin: 3rem 0;
+}
+section#guarantee .dragon-card .dragon-body {
+  width: 100%;
+  height: 220px;
+  margin: 150px 100px;
+  background-color: #FF963C;
+  border-radius: 10%;
+  position: relative;
+  box-shadow: -1px 20px 0px 0px #530075;
+  -webkit-box-shadow: -1px 20px 0px 0px #530075;
+  -moz-box-shadow: -1px 20px 0px 0px #530075;
+  transform: scale(1.1) translateX(-10%);
+}
+section#guarantee .dragon-card .dragon-body > img.dragon-image {
+  position: absolute;
+  bottom: 0;
+  transform: translate(-2%, -20%);
+  width: 100%;
+}
+section#guarantee .dragon-card .dragon-body > .dragon-text {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+section#guarantee .dragon-card .dragon-body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 180px;
+  height: 130px;
+  border-radius: 15% 0% 100% 0%;
+  background-color: #530075;
 }/*# sourceMappingURL=style.css.map */
