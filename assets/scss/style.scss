@@ -189,6 +189,38 @@ section#guarantee {
         border-radius: 15% 0% 100% 0%;
         background-color: $active;
       }
+    }  
+  }
+
+  .shield-card{
+    width: 100%;    
+    background-color: $morado;
+    border-radius: 20px;
+    transform: translateY(-150px);
+
+    .shield-body{
+      display: flex;
+      align-items: center;
+
+      i{
+        display: block;
+        color: $blanco;
+        font-size: 3rem;
+      }
+
+      .shield-text{
+        width: 100%;
+
+        h1{
+          font-size: 1.5rem;
+        }
+
+        p{
+          font-size: 1rem;
+        }
+      }
     }
+   
+
   }
 }

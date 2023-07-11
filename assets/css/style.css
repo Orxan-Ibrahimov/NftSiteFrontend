@@ -208,4 +208,28 @@ section#guarantee .dragon-card .dragon-body::before {
   height: 130px;
   border-radius: 15% 0% 100% 0%;
   background-color: #530075;
+}
+section#guarantee .shield-card {
+  width: 100%;
+  background-color: #A017D7;
+  border-radius: 20px;
+  transform: translateY(-150px);
+}
+section#guarantee .shield-card .shield-body {
+  display: flex;
+  align-items: center;
+}
+section#guarantee .shield-card .shield-body i {
+  display: block;
+  color: #fff;
+  font-size: 3rem;
+}
+section#guarantee .shield-card .shield-body .shield-text {
+  width: 100%;
+}
+section#guarantee .shield-card .shield-body .shield-text h1 {
+  font-size: 1.5rem;
+}
+section#guarantee .shield-card .shield-body .shield-text p {
+  font-size: 1rem;
 }/*# sourceMappingURL=style.css.map */
