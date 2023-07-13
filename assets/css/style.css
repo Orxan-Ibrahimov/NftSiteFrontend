@@ -56,6 +56,12 @@ a {
   font-size: 20px;
 }
 
+.fs-title {
+  font-size: 3rem;
+  font-weight: 700;
+  word-spacing: 2px;
+}
+
 header .navbar .navbar-brand img {
   width: 180px;
   height: 60px;
@@ -213,7 +219,7 @@ section#guarantee .shield-card {
   width: 100%;
   background-color: #A017D7;
   border-radius: 20px;
-  transform: translateY(-150px);
+  transform: translateY(-175px);
 }
 section#guarantee .shield-card .shield-body {
   display: flex;
@@ -232,4 +238,18 @@ section#guarantee .shield-card .shield-body .shield-text h1 {
 }
 section#guarantee .shield-card .shield-body .shield-text p {
   font-size: 1rem;
+}
+
+.chicken-card {
+  background-color: #530075;
+  border-radius: 1000px 100px 1000px 100px;
+  position: relative;
+  padding: 0 5rem;
+}
+.chicken-card img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateY(22%);
 }/*# sourceMappingURL=style.css.map */
