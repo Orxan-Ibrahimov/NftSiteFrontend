@@ -252,4 +252,11 @@ section#guarantee .shield-card .shield-body .shield-text p {
   bottom: 0;
   left: 0;
   transform: translateY(22%);
+}
+
+#arrival {
+  margin: 12rem 0;
+}
+#arrival .container .arrival-heading h1 {
+  font-size: 3rem;
 }/*# sourceMappingURL=style.css.map */
